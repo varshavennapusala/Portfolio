@@ -1,0 +1,418 @@
+https://github.com/varshavennapusala/TOLLGATE-SYSTEM
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Vennapusala Varsha - Computer Science Student | Full Stack Developer | Python, Java & Web Technologies">
+    <title>Vennapusala Varsha - Computer Science Student & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio-styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">VV</div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience & Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">GitHub Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Vennapusala Varsha</h1>
+            <p class="hero-subtitle">Computer Science Student & Developer</p>
+            <p class="hero-description">Computer Science student with hands-on experience in full-stack web development,
+                Python, and Java. Passionate about building efficient, scalable solutions and experienced in delivering
+                academic and personal projects from concept to deployment. Strong problem-solver with a collaborative
+                mindset.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero-image-container">
+            <div class="hexagon-frame">
+                <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="hexagon-svg">
+                    <defs>
+                        <clipPath id="hexagon-clip">
+                            <polygon points="150,20 260,80 260,200 150,260 40,200 40,80" />
+                        </clipPath>
+                        <linearGradient id="hexagon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#f0f0f0;stop-opacity:1" />
+                            <stop offset="50%" style="stop-color:#e0e0e0;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#d0d0d0;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+
+                    <!-- Animated Background Hexagon -->
+                    <polygon points="150,20 260,80 260,200 150,260 40,200 40,80" fill="none"
+                        stroke="url(#hexagon-gradient)" stroke-width="3" class="hexagon-border" opacity="0.8" />
+
+                    <!-- Image Container -->
+                    <image href="cute-girl-pic-_34.webp" x="50" y="50" width="200" height="200"
+                        clip-path="url(#hexagon-clip)" class="hexagon-image" />
+
+                    <!-- Gradient Overlay -->
+                    <polygon points="150,20 260,80 260,200 150,260 40,200 40,80" fill="url(#hexagon-gradient)"
+                        opacity="0.15" clip-path="url(#hexagon-clip)" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects & Extracurricular</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content experience-card">
+                        <h3>FIFTEEN GAME &ndash; Puzzle Solving Using Sliding</h3>
+                        <p class="role-subtitle">Python &bull; Tkinter &bull; A* Search | GitHub</p>
+                        <ul class="achievement-list">
+                            <li>Developed a modern gamified 4x4 Fifteen Puzzle using Python and Tkinter with an
+                                interactive GUI.</li>
+                            <li>Implemented A* search algorithm with Manhattan Distance heuristic to power an
+                                intelligent CPU opponent.</li>
+                            <li>Designed turn-based Human vs CPU gameplay with score tracking, timer, and solvable board
+                                shuffling logic.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content experience-card">
+                        <h3>TOLLGATE-SYSTEM</h3>
+                        <p class="role-subtitle">Node.js &bull; PostgreSQL | GitHub</p>
+                        <ul class="achievement-list">
+                            <li>Developed a full-stack TollGate Management System using Node.js and PostgreSQL with
+                                real-time database integration.</li>
+                            <li>Designed interactive UI with real-time reporting dashboard for daily/weekly/monthly
+                                collection analytics and vehicle history search.</li>
+                            <li>Built comprehensive email logging system tracking delivery status with PostgreSQL for
+                                complete transaction audit trail.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content experience-card">
+                        <h3>Extracurricular</h3>
+                        <p class="role-subtitle">NSS & Dancing</p>
+                        <ul class="achievement-list">
+                            <li><strong>National Service Scheme (NSS) Volunteer:</strong> Contributed to cleanliness
+                                drives, blood donation camps, and rural outreach programs as part of campus NSS
+                                initiatives.</li>
+                            <li><strong>Dancing:</strong> Passionate dancer with experience in classical and
+                                contemporary styles, performed at college cultural events and fests.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3>B.Tech in Computer Science and Engineering</h3>
+                    <p class="edu-field">Amrita Vishwa Vidyapeetham</p>
+                    <p class="edu-details">Coimbatore, India</p>
+                    <p class="edu-duration">06 2024 - 06 2028 | CGPA: 8.57</p>
+                    <ul class="edu-highlights">
+                        <li>Data Structures & Algorithms</li>
+                        <li>Full Stack Web Development</li>
+                        <li>Database Management Systems</li>
+                        <li>Software Engineering</li>
+                    </ul>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">💻</div>
+                    <p class="edu-field">Technical & Soft Skills</p>
+                    <p class="edu-details">Continuous Growth</p>
+                    <p class="edu-duration">Ongoing</p>
+                    <ul class="edu-highlights">
+                        <li>Python, C, Java, Shell/Bash</li>
+                        <li>Full Stack Web, Node.js</li>
+                        <li>PostgreSQL Database</li>
+                        <li>Team Collaboration, Communication</li>
+                    </ul>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">🌟</div>
+                    <p class="edu-field">Extracurricular</p>
+                    <p class="edu-details">Beyond Academics</p>
+                    <p class="edu-duration">2024 - Present</p>
+                    <ul class="edu-highlights">
+                        <li>NSS Volunteer</li>
+                        <li>Community Outreach</li>
+                        <li>Classical & Contemporary Dancing</li>
+                        <li>College Event Performer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a Computer Science student at <strong>Amrita Vishwa Vidyapeetham, Coimbatore</strong> with
+                        hands-on experience in full-stack web development, Python, and Java. Currently pursuing my
+                        B.Tech (2024-2028) with a CGPA of 8.57.</p>
+                    <p>I'm passionate about building efficient, scalable solutions and experienced in delivering
+                        academic and personal projects from concept to deployment. From automated tollgate management
+                        systems to intelligent strategy games, I love solving problems through code.</p>
+                    <p>A strong problem-solver with a collaborative mindset, I also enjoy dancing (classical and
+                        contemporary) and volunteering with the National Service Scheme. Based in Anantapur, Andhra
+                        Pradesh.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>2+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>8.57</h3>
+                        <p>CGPA</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>GitHub Projects</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div id="github-repos" class="projects-grid">
+                <!-- Repos loaded dynamically from GitHub API -->
+                <div class="repos-loading">
+                    <div class="spinner"></div>
+                    <p>Loading projects from GitHub...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Systems</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bash / Shell Scripting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Web & Mobile</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML & CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js & Express</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Electron.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend & Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Google Gemini Vision AI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Work Together</h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or
+                    just want to say hello, feel free to get in touch!</p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <h3>Email</h3>
+                        <a href="mailto:varshavennapusala22@gmail.com"
+                            class="contact-link">varshavennapusala22@gmail.com</a>
+                    </div>
+                    <div class="contact-method">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/varshavennapusala" target="_blank"
+                            class="contact-link">github.com/varshavennapusala</a>
+                    </div>
+                    <div class="contact-method">
+                        <h3>Phone</h3>
+                        <a href="tel:+919390248359" class="contact-link">+91 9390248359</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Vennapusala Varsha. Crafted with passion and code.</p>
+            <div class="social-links">
+                <a href="https://github.com/varshavennapusala" target="_blank" class="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/varsha-vennapusala-0b30b83b4/" target="_blank"
+                    class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio-script.js"></script>
+</body>
+
+</html>
